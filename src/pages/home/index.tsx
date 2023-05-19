@@ -60,8 +60,9 @@ export const Home = (): JSX.Element => {
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              I'm a lawyer who transitioned to Full Stack Web Development
+              <br></br>
+              Find out more about all my projects and technologies
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">

@@ -1,5 +1,17 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript } from "react-icons/si";
+import {
+  SiPostgresql,
+  SiTypescript,
+  SiExpress,
+  SiPrisma,
+  SiDjango,
+  SiMongodb,
+  SiFlask,
+  SiAmazonaws,
+  SiRedis,
+  SiRedux,
+  SiSelenium,
+} from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
   FaDocker,
@@ -8,6 +20,8 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  FaVuejs,
+  FaBootstrap,
 } from "react-icons/fa";
 
 export const stackData = [
@@ -25,16 +39,30 @@ export const stackData = [
   },
   { title: "TypeScript", img: SiTypescript },
   {
+    title: "React",
+    img: FaReact,
+  },
+  { title: "Vue", img: FaVuejs },
+  { title: "Bootstrap", img: FaBootstrap },
+  {
     title: "Node JS",
     img: FaNode,
   },
   {
-    title: "React",
-    img: FaReact,
+    title: "Express",
+    img: SiExpress,
   },
-  { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
+  { title: "Prisma", img: SiPrisma },
+  { title: "Django", img: SiDjango },
   { title: "PostgreSQL", img: SiPostgresql },
+  // { title: "Next.js", img: TbBrandNextjs },
+  // { title: "Docker", img: FaDocker },
+  // { title: "MongoDB", img: SiMongodb },
+  // { title: "Flask", img: SiFlask },
+  // { title: "Amazon Web Services", img: SiAmazonaws },
+  // { title: "Redis", img: SiRedis },
+  // { title: "Redux", img: SiRedux },
+  // { title: "Selenium", img: SiSelenium },
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
 ];
