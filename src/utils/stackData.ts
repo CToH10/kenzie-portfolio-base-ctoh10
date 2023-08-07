@@ -11,6 +11,8 @@ import {
   SiRedis,
   SiRedux,
   SiSelenium,
+  SiNestjs,
+  SiTailwindcss,
 } from "react-icons/si";
 import { FaGit, FaPython } from "react-icons/fa";
 import {
@@ -55,9 +57,12 @@ export const stackData = [
   { title: "Prisma", img: SiPrisma },
   { title: "Django", img: SiDjango },
   { title: "PostgreSQL", img: SiPostgresql },
-  // { title: "Next.js", img: TbBrandNextjs },
+  { title: "Next.js", img: TbBrandNextjs },
+  { title: "NestJS", img: SiNestjs },
+  { title: "Tailwind CSS", img: SiTailwindcss },
+
   // { title: "Docker", img: FaDocker },
-  // { title: "MongoDB", img: SiMongodb },
+  { title: "MongoDB", img: SiMongodb },
   // { title: "Flask", img: SiFlask },
   // { title: "Amazon Web Services", img: SiAmazonaws },
   // { title: "Redis", img: SiRedis },
